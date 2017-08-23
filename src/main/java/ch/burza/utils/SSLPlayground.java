@@ -10,10 +10,10 @@ import javax.net.ssl.SSLServerSocketFactory;
 import java.io.PrintWriter;
 
 /**
- * Hello world!
+ * Playground for SSL connections.
  *
  */
-public class App {
+public class SSLPlayground {
     public static void main(String[] args) throws Exception {
         // A list of sockets
         Collection<SSLServerSocket> serverSockets = new ArrayList<>();
